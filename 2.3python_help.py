@@ -1,7 +1,7 @@
 """
-This is the "example" module.
+this test check by Python 2.7.6 (ubuntu 14.04)
 
-The example module supplies one function, factorial().  For example,
+The example module supplies one function, help().  For example,
 
 >>> help(5)
 Help on int object:
