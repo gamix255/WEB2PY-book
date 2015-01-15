@@ -14,6 +14,12 @@ Python list information. part 5, comprehension. For example,
 [6, 12]
 
 >>> 
+
+>>> a = [1, 2, 3, 4, 5]
+>>> b = [x * 3 for x in a if x % 2 == 0]
+>>> b
+[6, 12]
+>>>
 """
 
 if __name__ == "__main__":
