@@ -17,6 +17,13 @@ True
 False
 >>> 
 
+>>> a = dict(k='v',h2=3)
+>>> a['k']
+'v'
+>>> print a
+{'h2': 3, 'k': 'v'}
+>>>
+
 """
 
 if __name__ == "__main__":
