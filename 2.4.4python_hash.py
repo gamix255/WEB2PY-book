@@ -2,7 +2,7 @@
 """
 this test check by Python 2.7.6 (ubuntu 14.04)
 
-Python dict information. For example,
+Python hash information. For example,
 
 >>> hash ("hello world")
 >>> -1500746465
