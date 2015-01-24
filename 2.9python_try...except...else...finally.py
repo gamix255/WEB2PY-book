@@ -15,6 +15,16 @@ Python try...except...else...finally.  information. For example,
 ...
 oops: integer division or modulo by zero
 done
+
+>>> try:
+...     raise SyntaxError
+... except ValueError:
+...     print 'value error'
+... except SyntaxError:
+...     print 'syntax error'
+... 
+syntax error
+>>> 
 """
 
 if __name__ == "__main__":
